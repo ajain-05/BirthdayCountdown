@@ -4,7 +4,7 @@ function BirthdayTimer(){
     const Minutes = document.getElementById("minute")
     const Seconds = document.getElementById("second")
     const date1 = new Date()
-    const date2 = new Date("2025-10-05T00:00:00")
+    const date2 = new Date("2025-08-16T00:00:00")
     const date = date2-date1;
     const day = Math.floor(date/(1000*60*60*24));
     const hour = Math.floor((date/(1000*60*60))%24);
@@ -15,6 +15,9 @@ function BirthdayTimer(){
     Minutes.innerHTML = minute
     Seconds.innerHTML = second
 }
+
+
+
 setInterval(BirthdayTimer,1000);
 
 
