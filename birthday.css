@@ -24,7 +24,26 @@ h1{
     color: #F9A825;
     font-family: "Rubik Vinyl", serif;
 }
-
+.greeting{
+    margin-left:5vw;
+    padding: 2vw;
+    background-color: #FFEBEE;
+    height: 14vw;
+    width: 60vw;
+    margin-top: 3vw;
+    font-weight: 900;
+    border-radius: 5rem;
+    font-family: "Dancing Script", serif;
+}
+.greeting>h2{
+    font-family: "Oxanium", serif;
+    font-size: 2vw;
+    color: #F9A825;
+}
+.greeting>p{
+    font-size: 2vw;
+    color: #4E342E;
+}
 .root{
     height: 20vw;
     margin-top: 1rem;
@@ -79,7 +98,7 @@ h1{
         font-size: 8.5vw;
     }
     .root{
-        margin-top: 15vw;
+        margin-top: 10vw;
     }
     .root1{
         font-size: 7vw;
@@ -90,6 +109,24 @@ h1{
     
     .root1>p{
         font-size: 3vw;
+    }
+
+    .greeting{
+        margin-left:5vw;
+        padding: 3vw;
+        height: 26vw;
+        width: 90vw;
+        margin-top: 5vw;
+        font-weight: 900;
+        border-radius: 1rem;
+    }
+    .greeting>h2{
+        font-size: 3vw;
+        color: #F9A825;
+    }
+    .greeting>p{
+        font-size: 3.5vw;
+        color: #4E342E;
     }
 }
 
