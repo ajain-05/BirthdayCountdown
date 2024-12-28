@@ -8,14 +8,20 @@ body{
     font-optical-sizing: auto;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, #FAD0C4, #F8BBD0); 
+    /* background: linear-gradient(to bottom, #FAD0C4, #F8BBD0); 
+    background: linear-gradient(to bottom, #FFC3A0, #FFB6C1);
+    background: linear-gradient(to bottom, #00BFAE, #A3D7B1); */
+    background-color: #F4F9F4;
     color: #333333; 
 }
 h1{
     padding-top: 1vw;
     text-align: center;
     font-size: 4.5vw;
-    color: #FF6F61;
+    /* color: #FF6F61;
+    color: #D26E6E;
+    color:  #9B59B6; */
+    color: #F9A825;
     font-family: "Rubik Vinyl", serif;
 }
 
@@ -25,6 +31,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .root1{
@@ -35,11 +42,15 @@ h1{
     font-size: 3.5vw;
     border-radius: 1rem;
     padding: 2.5vw;
-    background-color: #FFABAB;
+    /* background-color: #FFABAB;
+    background-color: #FF8A80;
+    background-color: #FFBC42; */
+    background: linear-gradient(to right, #FF5F6D, #FFC371);
     margin-left: 2rem;
     height: 12vw;
     width: 12vw;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)
 }
 
 .root1>p{
@@ -65,14 +76,15 @@ h1{
 
 @media(max-width:360px) and (min-width:352px){
     h1{
-        font-size: 6.5vw;
-        text-decoration-line: underline;
-        font-family: "Anton", serif;
+        font-size: 8.5vw;
+    }
+    .root{
+        margin-top: 15vw;
     }
     .root1{
         font-size: 7vw;
         margin-left: 0.5rem;
-        height: 20vw;
+        height: 25vw;
         width: 20vw;
     }
     
