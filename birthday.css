@@ -6,8 +6,8 @@
 body{
     font-family: "Oxanium", serif;
     font-optical-sizing: auto;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
     /* background: linear-gradient(to bottom, #FAD0C4, #F8BBD0); 
     background: linear-gradient(to bottom, #FFC3A0, #FFB6C1);
     background: linear-gradient(to bottom, #00BFAE, #A3D7B1); */
@@ -28,8 +28,8 @@ h1{
     margin-left:5vw;
     padding: 2vw;
     background-color: #FFEBEE;
-    height: 14vw;
-    width: 60vw;
+    height: 26.5vw;
+    width: 70vw;
     margin-top: 3vw;
     font-weight: 900;
     border-radius: 5rem;
@@ -41,16 +41,34 @@ h1{
     color: #F9A825;
 }
 .greeting>p{
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #4E342E;
 }
+#time_left{
+    text-decoration-thickness: 1px;
+    margin-left: 15vw;
+    font-size: 3vw;
+    margin-top: 3vw;
+    color: #FF5F6D;
+    animation-name: time;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:3s;
+}
+@keyframes time {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
 .root{
-    height: 20vw;
-    margin-top: 1rem;
+    height: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .root1{
@@ -61,14 +79,10 @@ h1{
     font-size: 3.5vw;
     border-radius: 1rem;
     padding: 2.5vw;
-    /* background-color: #FFABAB;
-    background-color: #FF8A80;
-    background-color: #FFBC42; */
     background: linear-gradient(to right, #FF5F6D, #FFC371);
     margin-left: 2rem;
     height: 12vw;
     width: 12vw;
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)
 }
 
@@ -97,6 +111,18 @@ h1{
     h1{
         font-size: 8.5vw;
     }
+    #time_left{
+        text-decoration-thickness: 1px;
+        margin-left: 5vw;
+        font-size: 8vw;
+        margin-top: 8vw;
+        color: #FF5F6D;
+        animation-name: time;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-duration:3s;
+    }
+
     .root{
         margin-top: 10vw;
     }
@@ -114,18 +140,18 @@ h1{
     .greeting{
         margin-left:5vw;
         padding: 3vw;
-        height: 30vw;
+        height: 86vw;
         width: 90vw;
         margin-top: 5vw;
         font-weight: 900;
         border-radius: 1rem;
     }
     .greeting>h2{
-        font-size: 3vw;
+        font-size: 3.5vw;
         color: #F9A825;
     }
     .greeting>p{
-        font-size: 4vw;
+        font-size: 3.5vw;
         color: #4E342E;
     }
 }
